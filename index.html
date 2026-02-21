@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="Green line style Cocktail corner Logo.svg"
+      type="image/x-icon"
+    />
+    <title>Batalha da Velha</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Batalha da Velha</h1>
+    </header>
+
+    <main class="container">
+      <!-- TABULEIRO -->
+      <section class="game-section" aria-label="Game board">
+        <div id="gameBoard" class="board">
+          <button class="cell" data-index="0"></button>
+          <button class="cell" data-index="1"></button>
+          <button class="cell" data-index="2"></button>
+
+          <button class="cell" data-index="3"></button>
+          <button class="cell" data-index="4"></button>
+          <button class="cell" data-index="5"></button>
+
+          <button class="cell" data-index="6"></button>
+          <button class="cell" data-index="7"></button>
+          <button class="cell" data-index="8"></button>
+        </div>
+
+        <button id="restartBtn" class="restart-btn">Reiniciar Jogo</button>
+      </section>
+
+      <!-- PONTAÇÃO DO JOGO -->
+      <section class="score-section">
+        <h2>Pontuação</h2>
+
+        <div class="score-board">
+          <div>
+            <span>Computador</span>
+            <strong id="computerScore">0</strong>
+          </div>
+
+          <div>
+            <span>Empates</span>
+            <strong id="tieScore">0</strong>
+          </div>
+
+          <div>
+            <span>Jogador</span>
+            <strong id="playerScore">0</strong>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- DIÁLOGO  -->
+    <dialog id="winDialog">
+      <p id="winText"></p>
+      <button id="closeWinDialog">SAIR</button>
+    </dialog>
+
+    <script defer src="script.js"></script>
+  </body>
+</html>
