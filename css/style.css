@@ -52,3 +52,37 @@ h1 {
   gap: 8px;
   margin: 2rem 0;
 }
+
+.cell {
+  aspect-ratio: 1 / 1;
+  font-size: 3rem;
+  font-weight: bold;
+  background: transparent;
+  border: 3px solid var(--text-light);
+  color: var(--text-light);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cell:hover {
+  background-color: rgba(255, 255, 255, 0.112);
+}
+
+/* ========= BUTÃO DE INICIO  ======= */
+
+.restart-btn {
+  margin-top: 1rem;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  border: 2px solid var(--text-light);
+  background: transparent;
+  color: var(--text-light);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.restart-btn:hover {
+  background-color: var(--text-light);
+  color: var(--bg-dark);
+}
