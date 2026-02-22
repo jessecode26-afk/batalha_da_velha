@@ -1,6 +1,8 @@
 # Batalha da Velha
 
-![Logo do jogo](images/logo.png)
+<img src="https://github.com/user-attachments/assets/8a53411a-2371-4010-b2b5-558b2f313d31" alt="Logo do jogo" width="200px">
+
+
 
 Batalha da Velha é um jogo divertido de estratégia, onde você enfrenta o computador. Escolha jogar como X ou O e teste sua sorte em partidas rápidas e desafiadoras!
 
